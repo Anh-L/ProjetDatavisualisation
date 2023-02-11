@@ -8,7 +8,7 @@
 
 ### 1. La présentation et le traitement du jeu de données
 
-Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata hauts-de-seine](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece)
+Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece)
 
 ### Extrait des données finales:
 
@@ -41,8 +41,10 @@ Les données de la diversité des poissons dans la Seine et la localisation des 
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-## 2. Première datavisualisation avec Flourish
+### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
 
-## 3. Deuxième visualisation avec datawrapper (carte des stations des Hauts-de-Seine)
+### 3. Les stations hydrobiologiques et la répartition d'habitat des poissons (carte des stations des Hauts-de-Seine)
 <iframe title="Les stations hydrobiologiques des Hauts-de-Seine" aria-label="Carte" id="datawrapper-chart-eQhGu" src="https://datawrapper.dwcdn.net/eQhGu/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="930" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
+
+### 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine
