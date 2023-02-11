@@ -5,14 +5,15 @@
 2. [L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020](#Etatevolutiondespeuplementsdepoissons)
 3. [Les stations hydrobiologiques et la répartition d'habitat des poissons](#Repartitionhabitatdespoissons)
 4. [L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine](#Especesdepoissonsproteges)
+5. [Conclusion](#Conclusion)
 
 ### 1. La présentation et le traitement du jeu de données
 
-Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) Tout d'abord, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines.
+Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) En premier lieu, pour assurer la qualité des données, 'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines.
 
 ### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
 
-Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter et extraire les nombres de chaque espèce de poissons qui varient selon chaque année.
+Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. Ensuite, J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter et extraire le nombre totale de chaque espèce de poissons qui varient selon chaque année. 
 
 |                    | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |
 |--------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -43,11 +44,9 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Après avoir les données nécessaires, j'ai fait une première datavisualisation avec Flourish et le graphique Bar Chart Race.
-
+Après avoir les données nécessaires, j'ai fait une première datavisualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-Grâce à cet visualisation, on pourrait constater que le peuplement des poissons dans la Seine est assez pauvre. On recense ici une vingtaine d'espèces de poissons qui appartiennent à la famille cyprinidés. 
+Grâce à cet visualisation, on pourrait constater que le peuplement des poissons dans la Seine est assez pauvre. On recense ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
 
 
 ### 3. Les stations hydrobiologiques et la répartition d'habitat des poissons
