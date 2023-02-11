@@ -44,7 +44,9 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 Après avoir les données nécessaires, j'ai fait une première datavisualisation avec Flourish et le graphique Bar Chart Race.
+
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 Grâce à cet visualisation, on pourrait constater que le peuplement des poissons dans la Seine est assez pauvre. On recense ici une vingtaine d'espèces de poissons qui appartiennent à la famille cyprinidés. 
 
 
