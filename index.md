@@ -10,7 +10,9 @@
 
 Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) Tout d'abord, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines.
 
-#### 
+### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
+
+Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter et extraire les nombres de chaque espèce de poissons qui varient selon chaque année.
 
 |                    | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |
 |--------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -41,8 +43,7 @@ Les données de la diversité des poissons dans la Seine et la localisation des 
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
-
+Pour créer la visaulisation de 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ### 3. Les stations hydrobiologiques et la répartition d'habitat des poissons (carte des stations des Hauts-de-Seine)
