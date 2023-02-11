@@ -43,8 +43,10 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Après avoir les données nécessaires, j'ai fait une première datavisualisation avec Flourish avec le graphique Bar Chart Race.
+Après avoir les données nécessaires, j'ai fait une première datavisualisation avec Flourish et le graphique Bar Chart Race.
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
 
 ### 3. Les stations hydrobiologiques et la répartition d'habitat des poissons (carte des stations des Hauts-de-Seine)
 <iframe title="Les stations hydrobiologiques des Hauts-de-Seine" aria-label="Carte" id="datawrapper-chart-eQhGu" src="https://datawrapper.dwcdn.net/eQhGu/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="930" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
