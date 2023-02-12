@@ -7,7 +7,7 @@
 
 ## 1. La présentation et le traitement les jeux de données
 
-Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. 
+Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) qui s'inscrivent dans le cadre du Schéma directeur d'aménagement et de gestion des eaux (SDAG) du bassin de la Seine. 
 
 ### A. Jeu de données n°1: La diversité des poissons dans la Seine
 
@@ -56,7 +56,8 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 Après avoir les données nécessaires, j'ai fait une première datavisualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-Grâce à cet visualisation, on pourrait constater que le peuplement des poissons dans la Seine est assez pauvre. On recense ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
+Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans la Seine sont assez pauvres. On recense ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
+Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs.
 
 
 ## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons
