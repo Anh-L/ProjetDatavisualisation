@@ -17,7 +17,7 @@ Ce jeu de donnée est produit par le département de Hauts-de-Seine. Il s'agit d
 
 ### B. Jeu de données n°2: Stations hydrobiologiques
 
-<iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/stations-hydrobiologiques/table/?disjunctive.commune&sort=id&static=false&datasetcard=false" width="600" height="450" frameborder="0"></iframe>
+<iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/stations-hydrobiologiques/table/?disjunctive.commune&sort=id&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 
 Ce jeu de donnée est une annexe du premier jeu qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'analyser l'impact des aménagements anthropiques sur la productivité piscicole.
 
