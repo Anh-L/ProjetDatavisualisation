@@ -13,7 +13,7 @@ Les données de la diversité des poissons dans la Seine et la localisation des 
 ### A. Jeu de données n°1: La diversité des poissons dans la Seine
 
 <iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/diversite-des-poissons-dans-la-seine/table/?disjunctive.nom_station_commune&disjunctive.espece&sort=annee&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJuYl9pbmRpdmlkdXMiLCJjb2xvciI6InJhbmdlLURhcmsyIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWV9XSwieEF4aXMiOiJhbm5lZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoibm9tX3N0YXRpb25fY29tbXVuZSIsInN0YWNrZWQiOiJub3JtYWwiLCJjb25maWciOnsiZGF0YXNldCI6ImRpdmVyc2l0ZS1kZXMtcG9pc3NvbnMtZGFucy1sYS1zZWluZSIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUubm9tX3N0YXRpb25fY29tbXVuZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXNwZWNlIjp0cnVlLCJzb3J0IjoiYW5uZWUifX19XSwidGltZXNjYWxlIjoieWVhciIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
-Il s'agit d'un recencement des nombres d'espèces de poissons, nombre d'individus, les stations d'analyse, le nom des communes sur le territoire du département et les années d'observation des poissons.
+Il s'agit d'un recencement de nombres d'espèces de poissons, nombre d'individus, les stations d'analyse, le nom des communes sur le territoire du département et les années d'observation des poissons.
 
 ### B. Jeu de données n°2: Stations hydrobiologiques
 
@@ -55,23 +55,25 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Après avoir les données nécessaires, j'ai fait une première datavisualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
+<br/>
+Après avoir eu les données nécessaires, j'ai fait une première visualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
+<br/>
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<br/>
 Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans les Hauts-de-Seine sont assez pauvres. On compte ici 24 d'espèces de poissons d'eau douce qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
-Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs.
-
+<br/>
+Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs comme la Grande Alose et le Saumon Atlantique.
 
 ## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons <a id="Repartitionhabitatdespoissons"></a>
 
-Afin de savoir la répartition d'habitat des espèces de poisson, j'ai utilisé le deuxième jeu de données qui fournit les coordonnées géographiques des stations de suivi pour faire un map sur datawrapper et créer un autre graphique hiérarchique avec le premier jeu de données sur Flourish pour avoir une visualisation sur la proportion entre eux.
+Afin de savoir la répartition d'habitat des espèces de poisson, j'ai utilisé le deuxième jeu de données qui fournit les coordonnées géographiques des stations de suivi pour faire un map sur Datawrapper. J'ai créé aussi un autre graphique hiérarchique avec le premier jeu de données sur Flourish pour avoir une visualisation sur la proportion entre les nombres d'espèces à chauqe station.
 <br>
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12719498"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 Type de graphique: Hierarchy
 <br/><br/>
-
 <iframe title="Les stations hydrobiologiques des Hauts-de-Seine" aria-label="Carte" id="datawrapper-chart-eQhGu" src="https://datawrapper.dwcdn.net/eQhGu/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="746" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-  
-A travers les deux graphiques, j'ai appris que les poissons se retrouvent la plus dense dans les stations 2, 7, 6 et 1. Parce que l'aménagement des berges impactent sur l'état écologique de la Seine et les milieux d'abri, de nutrition et de reproduction des poissons. On peut voir sur la carte les trois zones de fraie sur les stations 2, 6 bis et 7. Pourtant, les nombres de poissons observés dans les stations 2 et 7 sont plus nombreux que celle de 6bis car cette station a été récemment ajouté en 2017. Quant aux stations 1 et 2, on peut se trouver les berges naturels qui ne présent pas ou peu les signes d'intervention de l'homme. Elles facilitent le développement des poissons. Les informations concernant les emplacements des zones de fraie et les berges se sont trouvés dans la rubrique [Environnement](https://www.hauts-de-seine.fr/mon-departement/les-hauts-de-seine/missions-et-actions/environnement/le-shema-damenagement-de-la-seine-et-ses-berges) du département Hauts-de-Seine.
+
+En basant sur les deux graphiques, j'ai appris que les poissons se retrouvent la plus dense dans les stations 2, 7, 6 et 1 parce que l'aménagement des berges impactent sur l'état écologique de la Seine et les milieux d'abri, de nutrition et de reproduction des poissons. On peut voir sur la carte les trois zones de fraie sur les stations 2, 6 bis et 7. Pourtant, les nombres de poissons observés dans les stations 2 et 7 sont plus nombreux que celle de 6bis car cette station a été récemment ajouté en 2017. Quant aux stations 1 et 2, on peut se trouver les berges naturels qui ne présent pas ou peu les signes d'intervention de l'homme. Elles facilitent le développement des poissons. Les informations concernant les emplacements des zones de fraie et les berges se sont trouvés dans la rubrique [Environnement](https://www.hauts-de-seine.fr/mon-departement/les-hauts-de-seine/missions-et-actions/environnement/le-shema-damenagement-de-la-seine-et-ses-berges) du département Hauts-de-Seine.
 
 ## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine <a id="Especesdepoissonsproteges"></a>
 L'Arrêté du 8 décembre 1988 concernant les protections réglementaires françaises relatives aux epèces a fixé une liste des espèces de poissons protégées sur l'ensemble du territoire nationale qui contient le brochet, la vandoise, l'ide mélanote et la bouvière. 
