@@ -57,7 +57,7 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 Après avoir les données nécessaires, j'ai fait une première datavisualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans les Hauts-de-Seine sont assez pauvres. On compte ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
+Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans les Hauts-de-Seine sont assez pauvres. On compte ici 24 d'espèces de poissons d'eau douce qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
 Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs.
 
 
@@ -80,5 +80,9 @@ J'ai décidé de réaliser un graphique sur Flourish pour visualiser l'évolutio
 <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 <br/>
 Type de graphique: Scatter
-Cet visualisation monstre que 
+<br/>
+Cet visualisation a montré que le brochet et l'ide mélanote apparaissent presque rarement. Ils sont les espèces très vulnérables et peu répandus sur le territoire français. Leur zones de reproduction demandent beaucoup de critères comme la température, les zones de végétation herbacée, etc. qui pourraient être l'un des facteurs empêcher le regroupement de ces espèces.
+<br/>
+D'autre part, j'ai constaté l'existence d'une petite communauté de vandoise et de bouvière qui a la tendance de s'accroître très remarquable.
+  
 ## 5. Conclusion <a id="Conclusion"></a>
