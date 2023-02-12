@@ -84,6 +84,7 @@ Type de graphique: Scatter
 <br/>
 Cet visualisation a montré que le brochet et l'ide mélanote apparaissent presque rarement. Ils sont les espèces très vulnérables et peu répandus sur le territoire français. Leur zones de reproduction demandent beaucoup de critères comme la température, les zones de végétation herbacée, etc. qui pourraient être l'un des facteurs empêcher le regroupement de ces espèces.
 <br/>
-D'autre part, j'ai constaté l'existence d'une petite communauté de vandoise et de bouvière qui a la tendance de s'accroître très remarquable.
+D'autre part, j'ai constaté l'existence d'une petite communauté de vandoise et de bouvière qui a la tendance de s'accroître très remarquable. Les zones regroupent un grand nombre de ces poissons sont les stations 1, 1 bis, 2, 6 bis et 7 où on peut trouver les zones de fraie, les berges naturels et les zones hauts fonds.
   
 ## 5. Conclusion <a id="Conclusion"></a>
+T
