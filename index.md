@@ -1,13 +1,11 @@
-# La faune piscicole des Hauts-de-Seine
-
-## Sommaire:
+# Sommaire:
 1. [La présentation et le traitement du jeu de données](#Jeudedonnees)
 2. [L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020](#Etatevolutiondespeuplementsdepoissons)
 3. [Les stations hydrobiologiques et la répartition d'habitat des poissons](#Repartitionhabitatdespoissons)
 4. [L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine](#Especesdepoissonsproteges)
 5. [Conclusion](#Conclusion)
 
-### 1. La présentation et le traitement les jeux de données
+## 1. La présentation et le traitement les jeux de données
 
 Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. 
 
@@ -23,7 +21,7 @@ On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'an
 
 En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines. En second lieu, j'ai décidé de 
 
-### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
+## 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
 
 Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. Ensuite, J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter, extraire tous les informations de chaque espèce de poissons au fil de temps et créer un nouveau tableau qui contient le nom des poissons, les années et le nombre total de chaque espèce.
 
@@ -61,12 +59,12 @@ Après avoir les données nécessaires, j'ai fait une première datavisualisatio
 Grâce à cet visualisation, on pourrait constater que le peuplement des poissons dans la Seine est assez pauvre. On recense ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
 
 
-### 3. Les stations hydrobiologiques et la répartition d'habitat des poissons
+## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12719498"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 <iframe title="Les stations hydrobiologiques des Hauts-de-Seine" aria-label="Carte" id="datawrapper-chart-eQhGu" src="https://datawrapper.dwcdn.net/eQhGu/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="746" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-### 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine
+## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine
   Les espèces protégés sont:
   <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
