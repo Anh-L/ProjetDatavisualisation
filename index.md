@@ -1,5 +1,5 @@
 # La faune pisciole des Hauts-de-Seine
-# Sommaire:
+# Sommaire
 1. [La présentation et le traitement du jeu de données](#Jeudedonnees)
 2. [L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020](#Etatevolutiondespeuplementsdepoissons)
 3. [Les stations hydrobiologiques et la répartition d'habitat des poissons](#Repartitionhabitatdespoissons)
@@ -20,7 +20,7 @@ Il s'agit d'un recencement des nombres d'espèces de poissons, nombre d'individu
 <iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/stations-hydrobiologiques/table/?disjunctive.commune&sort=id&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
 On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'analyser l'impact des aménagements anthropiques sur la productivité piscicole.
 
-En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines. En second lieu, j'ai décidé de 
+En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines. 
 
 ## 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020 <a id="Etatevolutiondespeuplementsdepoissons"></a>
 
@@ -63,6 +63,8 @@ Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont pr
 
 ## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons <a id="Repartitionhabitatdespoissons"></a>
 
+Afin de savoir la répartition d'habitat des espèces de poisson, j'ai utilisé le deuxième jeu de données qui fournit les coordonnées géographiques des stations de suivi pour faire un map sur datawrapper et créer un autre graphique hiérarchique avec le premier jeu de données sur Flourish pour avoir une visualisation sur la proportion entre eux.
+<br>
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12719498"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 Type de graphique: Hierarchy
 <br/><br/>
@@ -72,7 +74,7 @@ Type de graphique: Hierarchy
 A travers les deux graphiques, j'ai appris que les poissons se retrouvent la plus dense dans les stations 2, 7, 6 et 1. Parce que l'aménagement des berges impactent sur l'état écologique de la Seine et les milieux d'abri, de nutrition et de reproduction des poissons. On peut voir sur la carte les trois zones de fraie sur les stations 2, 6 bis et 7. Pourtant, les nombres de poissons observés dans les stations 2 et 7 sont plus nombreux que celle de 6bis car cette station a été récemment ajouté en 2017. Quant aux stations 1 et 2, on peut se trouver les berges naturels qui ne présent pas ou peu les signes d'intervention de l'homme. Elles facilitent le développement des poissons. Les informations concernant les emplacements des zones de fraie et les berges se sont trouvés dans la rubrique [Environnement](https://www.hauts-de-seine.fr/mon-departement/les-hauts-de-seine/missions-et-actions/environnement/le-shema-damenagement-de-la-seine-et-ses-berges) du département Hauts-de-Seine.
 
 ## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine <a id="Especesdepoissonsproteges"></a>
-  Les espèces protégés sont:
-  <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+L'Arrêté du 8 décembre 1988 concernant les protections réglementaires françaises relatives aux epèces a fixé une liste des espèces de poissons protégées sur l'ensemble du territoire nationale qui contient le brochet, la vandoise, l'ide mélanote et la bouvière.
+<div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
   
 ## 5. Conclusion <a id="Conclusion"></a>
