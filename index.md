@@ -22,7 +22,7 @@ On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'an
 
 En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines. En second lieu, j'ai décidé de 
 
-## 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
+## 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020 <a id="Etatevolutiondespeuplementsdepoissons"></a>
 
 Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. Ensuite, J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter, extraire tous les informations de chaque espèce de poissons au fil de temps et créer un nouveau tableau qui contient le nom des poissons, les années et le nombre total de chaque espèce.
 
@@ -61,7 +61,7 @@ Grâce à cet visualisation, on pourrait constater que les espèces de poissons 
 Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs.
 
 
-## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons
+## 3. Les stations hydrobiologiques et la répartition d'habitat des poissons <a id="Repartitionhabitatdespoissons"></a>
 
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12719498"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 Type de graphique: Hierarchy
@@ -71,6 +71,8 @@ Type de graphique: Hierarchy
   
 A travers les deux graphiques, j'ai appris que les poissons se retrouvent la plus dense dans les stations 2, 7, 6 et 1. Parce que l'aménageme
 
-## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine
+## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine <a id="Especesdepoissonsproteges"></a>
   Les espèces protégés sont:
   <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+  
+## 5. Conclusion <a id="Conclusion"></a>
