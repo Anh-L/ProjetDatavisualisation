@@ -87,4 +87,7 @@ Cet visualisation a montré que le brochet et l'ide mélanote apparaissent presq
 D'autre part, j'ai constaté l'existence d'une petite communauté de vandoise et de bouvière qui a la tendance de s'accroître très remarquable. Les zones regroupent un grand nombre de ces poissons sont les stations 1, 1 bis, 2, 6 bis et 7 où on peut trouver les zones de fraie, les berges naturels et les zones hauts fonds.
   
 ## 5. Conclusion <a id="Conclusion"></a>
-T
+  
+Pour conclure, pendant la recherche et le traitement des données, j'ai pas pu trouver les jeux de données concernant la qualité de l'eau pour avoir une analyse plus approfondie sur la répartition du peuplement des espèces de poissons. En plus, les images des poissons n'existent pas sur Wikidata, c'est pourquoi je n'ai pas fait les enquêtes Sparql.
+Enfin, je trouve que le module datavisualisation et ce projet sont intéressants qui me permettent d'apprendre les techniques de création des tableaux, des graphiques pour analyser, décrire, transformer et transmettre les messages, les informations à partir des données abstraites. Je tiens à remercier Monsieur Antoine Courtin pour ses cours très enrichissants et détaillés.
+
