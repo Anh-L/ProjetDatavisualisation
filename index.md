@@ -80,7 +80,6 @@ L'Arrêté du 8 décembre 1988 concernant les protections réglementaires franç
 <br/>
 J'ai décidé de réaliser un graphique sur Flourish pour visualiser l'évolution de ces espèces depuis 2009 jusqu'à 2020.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-<br/>
 Type de graphique: Scatter
 <br/>
 Cet visualisation a montré que le brochet et l'ide mélanote apparaissent presque rarement. Ils sont les espèces très vulnérables et peu répandus sur le territoire français. Leur zones de reproduction demandent beaucoup de critères comme la température, les zones de végétation herbacée, etc. qui pourraient être l'un des facteurs empêcher le regroupement de ces espèces.
