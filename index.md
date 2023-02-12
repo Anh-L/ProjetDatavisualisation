@@ -89,5 +89,6 @@ D'autre part, j'ai constaté l'existence d'une petite communauté de vandoise et
 ## 5. Conclusion <a id="Conclusion"></a>
   
 Pour conclure, pendant la recherche et le traitement des données, j'ai pas pu trouver les jeux de données concernant la qualité de l'eau pour avoir une analyse plus approfondie sur la répartition du peuplement des espèces de poissons. En plus, les images des poissons n'existent pas sur Wikidata, c'est pourquoi je n'ai pas fait les enquêtes Sparql.
+<br/>
 Enfin, je trouve que le module datavisualisation et ce projet sont intéressants qui me permettent d'apprendre les techniques de création des tableaux, des graphiques pour analyser, décrire, transformer et transmettre les messages, les informations à partir des données abstraites. Je tiens à remercier Monsieur Antoine Courtin pour ses cours très enrichissants et détaillés.
 
