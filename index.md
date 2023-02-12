@@ -9,23 +9,23 @@
 
 ### 1. La présentation et le traitement les jeux de données
 
+Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. 
+
 ### A. Jeu de données n°1: La diversité des poissons dans la Seine
 
 <iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/diversite-des-poissons-dans-la-seine/table/?disjunctive.nom_station_commune&disjunctive.espece&sort=annee&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJuYl9pbmRpdmlkdXMiLCJjb2xvciI6InJhbmdlLURhcmsyIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWV9XSwieEF4aXMiOiJhbm5lZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoibm9tX3N0YXRpb25fY29tbXVuZSIsInN0YWNrZWQiOiJub3JtYWwiLCJjb25maWciOnsiZGF0YXNldCI6ImRpdmVyc2l0ZS1kZXMtcG9pc3NvbnMtZGFucy1sYS1zZWluZSIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUubm9tX3N0YXRpb25fY29tbXVuZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXNwZWNlIjp0cnVlLCJzb3J0IjoiYW5uZWUifX19XSwidGltZXNjYWxlIjoieWVhciIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe>
-
-Ce jeu de donnée est produit par le département de Hauts-de-Seine. Il s'agit d'un recencement des nombres d'espèces de poissons, nombre d'individus, les stations d'analyse, le nom des communes sur le territoire du département et les années d'observation des poissons.
+Il s'agit d'un recencement des nombres d'espèces de poissons, nombre d'individus, les stations d'analyse, le nom des communes sur le territoire du département et les années d'observation des poissons.
 
 ### B. Jeu de données n°2: Stations hydrobiologiques
 
 <iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/stations-hydrobiologiques/table/?disjunctive.commune&sort=id&static=false&datasetcard=false" width="800" height="300" frameborder="0"></iframe>
+On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'analyser l'impact des aménagements anthropiques sur la productivité piscicole.
 
-Ce jeu de donnée est une annexe du premier jeu qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'analyser l'impact des aménagements anthropiques sur la productivité piscicole.
-
-Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines.
+En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines. En second lieu, j'ai décidé de 
 
 ### 2. L'état d'évolution des peuplements de poissons dans les Haut-de-Seine depuis 2009 jusqu'à 2020
 
-Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. Ensuite, J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter et extraire le nombre totale de chaque espèce de poissons qui varient selon chaque année. 
+Tout d'abord, pour analyser l'évolution des espèces de poissons qui présentent dans les cours d'eau des Hauts-de-Seine, j'ai choisi trois données concernant l'année, les nombres individus et les espèces. Ensuite, J'ai utilisé l'outil Openrefine pour afficher les valeurs de ces données pour inspecter, extraire tous les informations de chaque espèce de poissons au fil de temps et créer un nouveau tableau qui contient le nom des poissons, les années et le nombre total de chaque espèce.
 
 |                    | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |
 |--------------------|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
