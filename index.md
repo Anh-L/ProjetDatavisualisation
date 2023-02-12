@@ -7,7 +7,19 @@
 4. [L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine](#Especesdepoissonsproteges)
 5. [Conclusion](#Conclusion)
 
-### 1. La présentation et le traitement du jeu de données
+### 1. La présentation et le traitement les jeux de données
+
+### A. Jeu de données n°1: La diversité des poissons dans la Seine
+
+<iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/diversite-des-poissons-dans-la-seine/analyze/?disjunctive.nom_station_commune&disjunctive.espece&sort=annee&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiU1VNIiwieUF4aXMiOiJuYl9pbmRpdmlkdXMiLCJjb2xvciI6InJhbmdlLURhcmsyIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWV9XSwieEF4aXMiOiJhbm5lZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoibm9tX3N0YXRpb25fY29tbXVuZSIsInN0YWNrZWQiOiJub3JtYWwiLCJjb25maWciOnsiZGF0YXNldCI6ImRpdmVyc2l0ZS1kZXMtcG9pc3NvbnMtZGFucy1sYS1zZWluZSIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUubm9tX3N0YXRpb25fY29tbXVuZSI6dHJ1ZSwiZGlzanVuY3RpdmUuZXNwZWNlIjp0cnVlLCJzb3J0IjoiYW5uZWUifX19XSwidGltZXNjYWxlIjoieWVhciIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+
+Ce jeu de donnée est produit par le département de Hauts-de-Seine. Il s'agit d'un recencement des nombres d'espèces de poissons, nombre d'individus, les stations d'analyse, le nom des communes sur le territoire du département et les années d'observation des poissons.
+
+### B. Jeu de données n°2: Stations hydrobiologiques
+
+<iframe src="https://opendata.hauts-de-seine.fr/explore/embed/dataset/stations-hydrobiologiques/table/?disjunctive.commune&sort=id&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
+
+Ce jeu de donnée est une annexe du premier jeu qui s'inscrit aussi dans le cadre du Schéma directeur d'aménagement et de gestion des eaux du bassin de la Seine. On peut trouver dans ce jeu les stations hydrobiologiques qui ont le drôle d'analyser l'impact des aménagements anthropiques sur la productivité piscicole.
 
 Les données de la diversité des poissons dans la Seine et la localisation des stations hydrobiologiques sur le territoire des Hauts-de-Seine ont été trouvées sur le site [Opendata Hauts-de-Seine.](https://opendata.hauts-de-seine.fr/explore/dataset/diversite-des-poissons-dans-la-seine/information/?disjunctive.nom_station_commune&disjunctive.espece) En premier lieu, pour assurer la qualité des données, j'ai analysé les deux jeu de données avec l'outil WTFCsv afin d'avoir une vision plus détaillée sur leur contenu. J'ai constaté que les deux fichiers sont propres, il n'y a pas de cellule vide, de cellule fusionnée, des données manquantes ou des données orphelines.
 
