@@ -57,7 +57,7 @@ Tout d'abord, pour analyser l'évolution des espèces de poissons qui présenten
 
 Après avoir les données nécessaires, j'ai fait une première datavisualisation avec le graphique Bar Chart Race sur Flourish. Un graphique dynamique qui me permet de visualiser le changement de la quantité des espèces de poissons au fil de temps et d'ajouter les images de certaines poissons.
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12718348"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans la Seine sont assez pauvres. On recense ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
+Grâce à cet visualisation, on pourrait constater que les espèces de poissons dans les Hauts-de-Seine sont assez pauvres. On compte ici 24 d'espèces de poissons qui appartiennent à la famille cyprinidés et une espèce de poisson envahissante (Le Perche Soleil). 
 Le chabot, la chevesne, le gardon, le goujon, la perche commune, le hotu sont présentés dans la Seine depuis le 19è siècle et ont formé une communauté assez dense dans le bassin de la Seine. Par contre, on pourrait voir ici la raréfaction de certains d'espèces de poissons comme la brème, le brochet, l'ide mélanote, la loche franche, la tanche, la silure et le vairon. Surtout, il n'y a pas la présence des espèces des poissons migrateurs.
 
 
@@ -74,7 +74,11 @@ Type de graphique: Hierarchy
 A travers les deux graphiques, j'ai appris que les poissons se retrouvent la plus dense dans les stations 2, 7, 6 et 1. Parce que l'aménagement des berges impactent sur l'état écologique de la Seine et les milieux d'abri, de nutrition et de reproduction des poissons. On peut voir sur la carte les trois zones de fraie sur les stations 2, 6 bis et 7. Pourtant, les nombres de poissons observés dans les stations 2 et 7 sont plus nombreux que celle de 6bis car cette station a été récemment ajouté en 2017. Quant aux stations 1 et 2, on peut se trouver les berges naturels qui ne présent pas ou peu les signes d'intervention de l'homme. Elles facilitent le développement des poissons. Les informations concernant les emplacements des zones de fraie et les berges se sont trouvés dans la rubrique [Environnement](https://www.hauts-de-seine.fr/mon-departement/les-hauts-de-seine/missions-et-actions/environnement/le-shema-damenagement-de-la-seine-et-ses-berges) du département Hauts-de-Seine.
 
 ## 4. L'état des espèces de poissons protégés dans les cours d'eau des Hauts-de-Seine <a id="Especesdepoissonsproteges"></a>
-L'Arrêté du 8 décembre 1988 concernant les protections réglementaires françaises relatives aux epèces a fixé une liste des espèces de poissons protégées sur l'ensemble du territoire nationale qui contient le brochet, la vandoise, l'ide mélanote et la bouvière.
+L'Arrêté du 8 décembre 1988 concernant les protections réglementaires françaises relatives aux epèces a fixé une liste des espèces de poissons protégées sur l'ensemble du territoire nationale qui contient le brochet, la vandoise, l'ide mélanote et la bouvière. 
+<br/>
+J'ai décidé de réaliser un graphique sur Flourish pour visualiser l'évolution de ces espèces depuis 2009 jusqu'à 2020.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/12719098"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-  
+<br/>
+Type de graphique: Scatter
+Cet visualisation monstre que 
 ## 5. Conclusion <a id="Conclusion"></a>
